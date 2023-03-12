@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Valor em Dólar"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/cotacaoDolar"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Cotação do Dólar"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/textResultado"
